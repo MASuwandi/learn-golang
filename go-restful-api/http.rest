@@ -1,0 +1,45 @@
+
+### Test Server
+GET http://localhost:3000/
+X-API-Key: SECRET
+Accept: application/json
+
+### Get All Categories
+GET http://localhost:3000/api/categories
+X-API-Key: SECRET
+Accept: application/json
+
+### Create New Category
+POST http://localhost:3000/api/categories
+X-API-Key: SECRET
+Accept: application/json
+Content-Type: application/json
+
+{
+    "name": ""
+}
+
+// Scenario1 { "name": "Peripheral" }
+// Scenario2 { "name": "" }
+
+### Get By Category Id
+GET http://localhost:3000/api/categories/10
+X-API-Key: SECRET
+Accept: application/json
+
+### Update Category
+PUT  http://localhost:3000/api/categories/1
+X-API-Key: SECRET
+Accept: application/json
+Content-Type: application/json
+
+{
+    "name": ""
+}
+
+// Scenario2 { "name": "" }
+
+### Delete Category
+DELETE  http://localhost:3000/api/categories/3
+X-API-Key: SECRET
+Accept: application/json
