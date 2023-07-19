@@ -917,7 +917,7 @@ Data Representation
 
 ### 6. end
 <!-- SOL 660 -->
-<details>
+</details>
 
 
 <details>
